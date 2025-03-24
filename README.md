@@ -21,8 +21,16 @@ The study includes:
 ## Results
 The detailed results, including temperature evolution at selected points and temperature distribution maps, are presented in the report: **`Es1_Heat_Conduction_2D_AlessiGiada.pdf`**.
 
+## How to Run
+1. Ensure **Gnuplot** is installed on your system.
+2. Compile the code using a C++ compiler (e.g., `g++ Heat_Conduction_2D.cpp -o HeatConduction`).
+3. Run the executable: `./HeatConduction`.
+4. To visualize results, run the Gnuplot script: `gnuplot TemperatureMap_Plot.plt`.
+
 ## Author
 **Giada Alessi**  
 Master in Thermal Engineering  
 Universitat Politècnica de Catalunya
+
+
 
